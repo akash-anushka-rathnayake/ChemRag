@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the difference between a continuous spectrum and a line spectrum?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should describe a continuous spectrum as containing all wavelengths (like a rainbow) vs a line spectrum showing only specific wavelengths."
+  },
+  {
+    "question": "What does Bohr's energy-level postulate state?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should state that an electron can only have specific energy values (energy levels), so the atom itself can only have specific total energies."
+  },
+  {
+    "question": "What is the formula for the energy levels of an electron in a hydrogen atom?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should return E = -R_H / n^2, with n as the principal quantum number (1, 2, 3, ...)."
+  },
+  {
+    "question": "What is the value of R_H, the constant in Bohr's energy formula?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should return 2.179 x 10^-18 J."
+  },
+  {
+    "question": "What is Bohr's second postulate, about transitions between energy levels?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should describe an electron changing energy only by moving from one energy level to another, called a transition, emitting a photon when moving to a lower level."
+  },
+  {
+    "question": "What is the energy lost by a hydrogen atom when an electron transitions from n=4 to n=2?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Worked example directly in the text: should return approximately -4.086 x 10^-19 J (or the positive photon energy equivalent). Good test case for the calculator agent — the source text already contains the fully worked arithmetic, so this checks whether CALC[] verification matches the textbook's own answer."
+  },
+  {
+    "question": "According to Balmer's formula, what wavelength of light is emitted for n=3?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should return approximately 656 nm (6.56 x 10^-7 m), corresponding to red light."
+  },
+  {
+    "question": "Who discovered the mathematical formula that predicts the hydrogen line spectrum, before Bohr's theory explained why it worked?",
+    "expected_source": "Chemistry-pages_2.pdf",
+    "notes": "Should credit J. J. Balmer (1885), distinct from Bohr's 1913 theoretical explanation — tests whether the model conflates the two contributions."
+  }
+]
